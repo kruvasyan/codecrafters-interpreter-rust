@@ -30,7 +30,7 @@ fn main() {
             }
         }
         _ => {
-            eprintln!(, "Unknown command: {}", command);
+            eprintln!("Unknown command: {}", command);
             return;
         }
     }
